@@ -7,7 +7,7 @@ header{
 }
 
 h1{
-    font-size: 150px;
+    font-size: 50px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color: crimson;
 }
@@ -20,6 +20,7 @@ nav{
 ul{
     display: flex;
     justify-content: space-around;
+    list-style-type: none;
 }
 
 li{
@@ -31,4 +32,66 @@ li{
 *{
     margin: 0px;
     padding: 0px;
+}
+
+div{
+    height: 600px;
+    animation-name: colores;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h2{
+    animation-name: colores2;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    font-size: 300px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}  
+
+@keyframes colores{
+    0%{
+        background-color: red;
+    }
+
+    25%{
+        background-color: rgb(13, 255, 0);
+    }  
+
+    50%{
+        background-color: rgb(251, 0, 255);
+    }
+
+    75%{
+        background-color: rgb(255, 247, 0);
+    }
+
+    100%{
+        background-color: rgb(72, 0, 255);
+    }
+}
+
+@keyframes colores2{
+    0%{
+        color: rgb(157, 255, 0);
+    }
+
+    25%{
+        color: rgb(30, 0, 255);
+    }  
+
+    50%{
+        color: rgb(251, 255, 0);
+    }
+
+    75%{
+        color: rgb(255, 8, 0);
+    }
+
+    100%{
+        color: rgb(238, 0, 255);
+    }
 }
