@@ -1,0 +1,29 @@
+header{
+    background-color: aquamarine;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+    font-size: 150px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: crimson;
+}
+
+nav{
+    background-color: black;
+    height: 100px;
+}
+
+ul{
+    display: flex;
+    justify-content: space-around;
+}
+
+li{
+    color: white;
+    font-size: 50px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
